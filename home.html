@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+
+
+<form method='post' class='reg-form'>
+    <div class="reg-form">
+        <h3> Registrations</h3>
+    </div>>
+
+    <div class='form-row'>
+        <label for='form_fname'>Login: </label>
+        <input type='text' id='form_fname'  minlength="4" maxlength="30"  name='first_name' value="Bodanich97">
+    </div>
+
+    <div class='form-row'>
+        <label for='password'>Password: </label>
+        <input type="password" minlength="6" maxlength="25" size="40" name="password" id = 'password' value="13051997a">
+    </div>
+
+    <div class='form-row'>
+        <label for='form_sname'>Name: </label>
+        <input type='text' id='form_sname' name='second_name' value="Bogdan">
+    </div>
+
+    <div class='form-row'>
+        <label for='form_email'>Email: </label>
+        <input type='email' id='form_email' name='email' value="kisarchuk.b@donnu.edu.ua">
+    </div>
+
+    <div class='form-row'>
+        <table>
+            <tr>
+                <td>
+                <label for='form_about'>About myself: </label>
+                </td>>
+                <td>
+                    <textarea id='form_about' name='about' >"Stdunts of Donetsk National Universuty"</textarea>
+                </td>>
+                <td>
+                    <img src="dula.jpg" width="90" height="90">
+                </td>>
+            </tr>>
+        </table>>
+    </div>
+
+    <div class="reg-form">
+        <label for='foto'>Select foto </label>
+        <input type="file" name="photo" id = 'foto' multiple accept="image/*,image/jpeg">
+    </div>>
+
+    <div class='form-row'>
+        <label for='data_form'>Date of birth: </label>
+        <input type="date" name="calendar" id='data_form' value="1997-05-13" max="2099-12-31" min="1970-01-01">
+
+    <div class='form-row'>
+        <label for='form_about'>Sex: </label>
+        <select>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+    </div>
+
+
+    <div class="form-row">
+        <input type="submit" value='Register' onclick="">
+    </div>
+
+
+</form>
+
+</body>
+</html>>

@@ -1,0 +1,51 @@
+
+.header-bg {
+    background: url(shap.jpg) repeat-x center bottom;
+    height: 405px;
+}
+
+.form-row {
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.form-row input {
+    float: right;
+    height: 19px;
+    line-height: 19px;
+    margin: 0px;
+    padding: 0px 5px;
+    width: 287px;
+    border: 1px solid green;
+}
+
+.reg-form {
+    width: 416px;
+    margin: 0 auto;
+}
+
+.form-row textarea {
+    height: 100px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0px 5px;
+    width: 200px;
+    border: 1px solid blue;
+}
+
+.form-row input[type=submit] {
+    padding:5px;
+    height:25px;
+    width:100%;
+    line-height: 10px;
+    background: green;
+    color:red;
+}
+
+.form-row input[type=submit]:hover {
+    background:#286090;
+}
+
+* {
+    font-family:impact;
+    font-size:13pt;
+}
